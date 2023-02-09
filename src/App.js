@@ -11,6 +11,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Episodes } from "./Pages/Episodes";
 import { Location } from "./Pages/Location";
 
+//Enrutamiento
+
 function App (){
   return(
     <Router>
