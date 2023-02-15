@@ -1,12 +1,10 @@
-import React from 'react'
-import { FilterBTN } from '../FilterBTN'
+import React from "react";
+import { FilterBTN } from "../FilterBTN";
 
-export const Status = ({setStatus, setPageNumber}) => {
-
-    var status = ["Alive", "Dead", "Unknown"];
+export const Status = ({ setStatus, setPageNumber }) => {
+  var status = ["Alive", "Dead", "Unknown"];
 
   return (
-
     <div className="accordion-item">
       <h2 className=" accordion-header" id="headingOne">
         <button
@@ -40,6 +38,5 @@ export const Status = ({setStatus, setPageNumber}) => {
         </div>
       </div>
     </div>
-
-  )
-}
+  );
+};
