@@ -14,7 +14,7 @@ export const Filters = ({setStatus, setPageNumber, setGender,setSpecies }) => {
   };
 
   return (
-    <div className="mb-4 col-sm-3">
+    <div className="mb-4 col-lg-3 col-12">
       <div className="text-center fw-bold fs-4 mb-4">Filters</div>
 
       <div

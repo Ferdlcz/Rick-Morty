@@ -9,8 +9,8 @@ export const Cards = ({ results }) => {
     display = results.map((x) => {
       var { id, name, image, location, status, species, } = x;
       return (
-        <div key={id} className="col-sm-4 position-relative">
-          <div className={`${styles.cards} card mb-3 bg-dark text-white`}>
+        <div key={id} className="col-lg-4 col-12 position-relative mb-5">
+          <div className={`${styles.cards} card bg-dark text-white`}>
             <img
               src={image}
               className="card-img-top img-fluid"
