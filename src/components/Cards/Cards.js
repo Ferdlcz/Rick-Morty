@@ -24,15 +24,15 @@ export const Cards = ({ results, page }) => {
             <div className="card-body">
               <div className="fs-4 fw-bold">{name}</div>
               <hr />
-              <div className="fs-6">Last location</div>
+              <div className="fs-6">Ultima ubicacion</div>
               <div className="fs-5">{location.name}</div>
               <hr />
-              <div className="fs-6">Species</div>
+              <div className="fs-6">Especies</div>
               <div className="fs-5">{species}</div>
-              <div className="fs-6 mt-4">CLick for more information...</div>
+              <div className="fs-6 mt-4">CLick para mas informacion...</div>
             </div>
             {(() => {
-              if (status === "Dead") {
+              if (status === "Muerto") {
                 return (
                   <div
                     className={`${styles.badge} position-absolute badge bg-danger`}
@@ -40,7 +40,7 @@ export const Cards = ({ results, page }) => {
                     {status}
                   </div>
                 );
-              } else if (status === "Alive") {
+              } else if (status === "Vivo") {
                 return (
                   <div
                     className={`${styles.badge} position-absolute badge bg-success`}
@@ -63,7 +63,7 @@ export const Cards = ({ results, page }) => {
       );
     });
   } else {
-    display = "No Characters Found :/";
+    display = "No se encontraron personajes :/";
   }
 
   return (

@@ -19,14 +19,14 @@ export const Filters = ({
 
   return (
     <div className="mb-4 col-lg-3 col-12">
-      <div className="text-center fw-bold fs-4 mb-4">Filters</div>
+      <div className="text-center fw-bold fs-4 mb-4">Filtro</div>
 
       <div
         style={{ cursor: "pointer" }}
         onClick={clear}
         className=" text-primary text-decoration-underline text-center mb-3"
       >
-        Clear Filters
+        Limpiar filtros
       </div>
       <div className="accordion" id="accordionExample">
         <Status setPageNumber={setPageNumber} setStatus={setStatus} />

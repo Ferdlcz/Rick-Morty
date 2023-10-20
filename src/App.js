@@ -51,11 +51,9 @@ const Home = () => {
     })();
   }, [api]);
 
-  //  <h1 className="text-center ubuntu my-5">Rick & Morty</h1>
-
   return (
     <div className="App">
-      <h1 className="text-center mb-4"> CHARACTERS</h1>
+      <h1 className="text-center mb-4"> PERSONAJES</h1>
       <Search setPageNumber={setPageNumber} setSearch={setSearch} />
 
       <div className="container">

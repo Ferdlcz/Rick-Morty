@@ -9,7 +9,7 @@ export const Search = ({ setSearch, setPageNumber }) => {
           setPageNumber(1);
           setSearch(e.target.value);
         }}
-        placeholder="Search for Characters"
+        placeholder="Buscar personajes"
         type="text"
         className={styles.input}
       />
@@ -19,7 +19,7 @@ export const Search = ({ setSearch, setPageNumber }) => {
         }}
         className={`${styles.btn} btn btn-primary fs-5`}
       >
-        Search
+        Buscar
       </button>
     </form>
   );

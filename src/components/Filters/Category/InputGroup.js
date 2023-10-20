@@ -8,7 +8,7 @@ export const InputGroup = ({ total, name, setID }) => {
         className="form-select"
         id={name}
       >
-        <option value="1">Choose...</option>
+        <option value="1">Elegir...</option>
         {[...Array(total).keys()].map((x) => {
           return (
             <option value={x + 1}>

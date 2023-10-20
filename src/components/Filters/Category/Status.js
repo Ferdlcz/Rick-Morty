@@ -2,7 +2,7 @@ import React from "react";
 import { FilterBTN } from "../FilterBTN";
 
 export const Status = ({ setStatus, setPageNumber }) => {
-  var status = ["Alive", "Dead", "Unknown"];
+  var status = ["alive", "dead", "unknow"];
 
   return (
     <div className="accordion-item">
@@ -15,7 +15,7 @@ export const Status = ({ setStatus, setPageNumber }) => {
           aria-expanded="true"
           aria-controls="collapseOne"
         >
-          Status
+          Estado
         </button>
       </h2>
       <div

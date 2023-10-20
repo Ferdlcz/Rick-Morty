@@ -34,20 +34,20 @@ export const Navbar = () => {
         >
           <div className=" navbar-nav fs-5">
           <NavLink to="/" className="text-white nav-link">
-              HOME
+              INICIO
             </NavLink>
             <NavLink to="/" className="text-white nav-link">
-              Characters
+              Personajes
             </NavLink>
             <NavLink to="/episodes" className="text-white nav-link">
-              Episode
+              Episodios
             </NavLink>
             <NavLink
               activeClassName="active"
               className="text-white nav-link"
               to="/location"
             >
-              Location
+              Ubicacion
             </NavLink>
           </div>
         </div>

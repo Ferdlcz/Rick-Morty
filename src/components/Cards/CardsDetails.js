@@ -24,9 +24,9 @@ export const CardsDetails = () => {
         <div className="bg-dark card-body">
         <h1 className="text-center">{name}</h1>
         {(() => {
-          if (status === "Dead") {
+          if (status === "Muerto") {
             return <div  className={`${styles.badge} position-absolute badge bg-danger`}>{status}</div>;
-          } else if (status === "Alive") {
+          } else if (status === "Vivo") {
             return <div className={`${styles.badge} position-absolute badge bg-success`}>{status}</div>;
           } else {
             return <div className={`${styles.badge} position-absolute badge bg-secondary`}>{status}</div>;
@@ -35,24 +35,24 @@ export const CardsDetails = () => {
 
         <div className="content">
           <div className="">
-            <span className="fw-bold-5">Gender: </span>
+            <span className="fw-bold-5">Genero: </span>
             {gender}
           </div>
           <div className="">
-            <span className="fw-bold-5">Location: </span>
+            <span className="fw-bold-5">Ubicacion: </span>
             {location?.name}
           </div>
           <div className="">
-            <span className="fw-bold-5">Origin: </span>
+            <span className="fw-bold-5">Origen: </span>
             {origin?.name}
           </div>
           <div className="">
-            <span className="fw-bold-5">Species: </span>
+            <span className="fw-bold-5">Especie: </span>
             {species}
           </div>
           <div className="">
-            <span className="fw-bold-5">Type: </span>
-            {type === "" ? "Unknown" : type}
+            <span className="fw-bold-5">Tipo: </span>
+            {type === "" ? "Desconocido" : type}
             </div>
           </div>
         </div>

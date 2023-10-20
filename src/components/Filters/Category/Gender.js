@@ -2,7 +2,7 @@ import React from "react";
 import { FilterBTN } from "../FilterBTN";
 
 export const Gender = ({ setGender, setPageNumber }) => {
-  var genders = ["female", "male", "genderless", "unknown"];
+  var genders = ["female", "male", "genderless", "unknow"];
 
   return (
     <div className="accordion-item">
@@ -15,7 +15,7 @@ export const Gender = ({ setGender, setPageNumber }) => {
           aria-expanded="false"
           aria-controls="collapseThree"
         >
-          Gender
+          Genero
         </button>
       </h2>
       <div

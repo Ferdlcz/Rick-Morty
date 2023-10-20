@@ -29,17 +29,17 @@ export const Location = () => {
     <div className="container">
       <div className="row mb-3">
         <h1 className="text-center mb-3">
-          Location :{" "}
+          Ubicacion :{" "}
           <span className="text-primary">{name === "" ? "Unknown" : name}</span>
         </h1>
         <h5 className="text-center">
           Dimension: {dimension === "" ? "Unknown" : dimension}
-          Type: {type === "" ? "Unknown" : type}
+          Tipo: {type === "" ? "Unknown" : type}
         </h5>
       </div>
       <div className="row">
         <div className="col-lg-3 col-12 mb-4">
-          <h4 className="text-center mb-4">Pick Location</h4>
+          <h4 className="text-center mb-4">Elegir ubicacion</h4>
           <InputGroup name="Location" setID={setID} total={126} />
         </div>
         <div className="col-lg-8 col-12">

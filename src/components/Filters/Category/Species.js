@@ -27,7 +27,7 @@ export const Species = ({ setSpecies, setPageNumber }) => {
           aria-expanded="false"
           aria-controls="collapseTwo"
         >
-          Species
+          Especies
         </button>
       </h2>
       <div
